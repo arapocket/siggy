@@ -51,3 +51,5 @@ app.get('/sign_s3', cors(), function(req, res) {
 });
 
 app.listen(port);
+
+console.log('app started');
