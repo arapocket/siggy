@@ -6,6 +6,8 @@ var cors = require('cors');
 var app = express();
 var port = process.env.PORT || 5000;
 app.use(body_parser.json());
+require('dotenv').config()
+
 
 var AWS_ACCESS_KEY = process.env.AWS_ACCESS_KEY;
 var AWS_SECRET_KEY = process.env.AWS_SECRET_KEY;
